@@ -1,0 +1,36 @@
+{
+  "name": "badtz-cli",
+  "description": "CLICLI",
+  "version": "0.0.0",
+  "author": "ATeam",
+  "bin": {
+    "badtz": "./src/index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/gcca/badtz-cli/issues"
+  },
+  "dependencies": {
+    "commander": "^2.11.0"
+  },
+  "devDependencies": {
+    "@types/commander": "^2.9.2",
+    "@types/node": "^8.0.31",
+    "typescript": "^2.5.3"
+  },
+  "homepage": "https://github.com/gcca/badtz-cli#readme",
+  "keywords": [
+    "basestart",
+    "cli"
+  ],
+  "license": "GPL-2.0",
+  "main": "src/index.js",
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gcca/badtz-cli.git"
+  },
+  "scripts": {
+    "compile": "tsc -p src/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
